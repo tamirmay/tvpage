@@ -1,0 +1,29 @@
+.wrapper{
+    padding-top: 50px;
+}
+#form-content{
+    margin: 0 auto;
+    width: 1000px;
+}
+#pageheader {
+    text-align : center;
+}
+
+table {
+    width: 100%;
+}
+
+#light-box{
+    background: rgba(0, 0, 0, 0.4) url('../images/ajaxSpinner.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+z-index: 99999;
+    display: none;
+}
+
+#light-box.visible{
+    display: block;
+}
